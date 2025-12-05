@@ -41,8 +41,7 @@ GOOGLE_SHEET_NAME=Lead Tracker
 SYNC_INTERVAL=60
 
 Google Service Account
-
-    Google Cloud JSON key in the root directory and rename it to "service_account.json".
+Google Cloud JSON key in the root directory and rename it to "service_account.json".
 next: Open service_account.json, copy the client_email, and Share your Google Sheet with that email (Editor access).
 
 Google Sheet Headers Ensure your Sheet (Tab 1) has exactly these headers in 
@@ -59,3 +58,4 @@ Run:
 
 python -m unittest tests/test_sync_engine.py  
 python main.py
+
